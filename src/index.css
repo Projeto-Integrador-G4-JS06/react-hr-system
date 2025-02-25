@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@theme {
+  /* --color-*: initial; */
+  --color-aqua-medium: #00adb5; /* Azul-esverdeado médio */
+  --color-aqua-dark: #007c82; /* Azul-esverdeado escuro */
+  --color-dark-slate: #303841; /* Azul-acinzentado escuro */
+  --color-cyan-bright: #00dee8; /* Ciano brilhante */
+  --color-light-gray: #eeeeee; /* Cinza claro */
+}
