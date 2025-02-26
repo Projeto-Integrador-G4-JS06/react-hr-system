@@ -64,7 +64,7 @@ function Navbar() {
                             </li>
                             <li className="w-full py-3 border-b border-gray-400">
                                 <Link
-                                    to="/colaboradores"
+                                    to="/listarcolaboradores"
                                     className="hover:underline"
                                 >
                                     Colaboradores
@@ -115,10 +115,13 @@ function Navbar() {
                 <nav className="w-1/4">
                     <ul className="flex text-2xl justify-around ">
                         <li className="mr-20 hover:text-gray-400 cursor-pointer">
-                            Colaboradores
+                        <Link to="/listarcolaboradores" className="hover:underline">
+                        Colaboradores
+                            </Link>
+                            
                         </li>
                         <li className="mr-20 hover:text-gray-400 cursor-pointer">
-                            <Link to="/categorias" className="hover:underline">
+                            <Link to="/sobre" className="hover:underline">
                                 Sobre
                             </Link>
                         </li>
