@@ -9,11 +9,6 @@ function App() {
   return (
     <>
 
-    <ListarColaboradores/>
-      {/* <div className="flex justify-center">
-        <CardPrincipal/>
-        <CardSecundario />
-      </div> */}
     </>
   );
 }
