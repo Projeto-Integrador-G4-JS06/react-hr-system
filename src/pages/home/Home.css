@@ -1,0 +1,18 @@
+.fundoHome {
+  background-image: url("https://ik.imagekit.io/p2qsb5ajs/HR-SYSTEM/imagem-home_sem_fundo.png?updatedAt=1740573171794");
+  background-repeat: no-repeat;
+  min-height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+}
+
+p {
+  font-weight: 400;
+}
+
+input:focus {
+  outline: none;
+  border-color: #00adb5; /* Cor da borda ao focar (ajuste conforme o design) */
+  box-shadow: 0 0 5px #00adb5; /* Efeito de brilho */
+}
