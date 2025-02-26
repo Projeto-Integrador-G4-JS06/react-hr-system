@@ -3,7 +3,7 @@
 <br />
 
 <div align="center">
-    <img src="https://ik.imagekit.io/czhooyc3x/PeopleHub%20-%20Frontend/imagem_readme.png?updatedAt=1740593705623" title="Tela " width="50%"/>
+    <img src="https://ik.imagekit.io/czhooyc3x/PeopleHub%20-%20Frontend/imagem_readme.png?updatedAt=1740593705623" title="Tela " width="100%"/>
 </div>
 
 <br />
