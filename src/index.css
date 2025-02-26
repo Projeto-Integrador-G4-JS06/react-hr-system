@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @theme {
   /* --color-*: initial; */
@@ -12,3 +13,5 @@
   --color-pastel-lavender: #cfbae1; /* Lavanda pastel */
   --color-muted-violet: #6f5d80; /* Violeta acinzentado */
 }
+
+
