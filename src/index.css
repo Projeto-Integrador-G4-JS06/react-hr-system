@@ -1,12 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import "tailwindcss";
 
+:root {
+  --font-poppins: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--font-poppins);
+}
+
 @theme {
-  /* --color-*: initial; */
+  /* Cores Aqua (Azul-esverdeado) */
   --color-aqua-medium: #00adb5; /* Azul-esverdeado médio */
   --color-aqua-dark: #007c82; /* Azul-esverdeado escuro */
+  --color-aqua-bright: #00dee8; /* Azul-esverdeado brilhante */
+  --color-aqua-test: #00d1db; /* Azul-esverdeado para testes */
+
+  /* Cores Roxo (Purple) */
+  --color-purple-light: #c19ab7; /* Roxo claro rosado */
+  --color-purple-dark: #62405a; /* Roxo escuro ameixa */
+  --color-purple-violet-dark: #452d3f; /* Violeta escuro */
+  --color-purple-violet-hover: #5a3a4f; /* Violeta escuro para hover */
+  --color-purple-muted-violet: #6f5d80; /* Violeta acinzentado */
+  --color-purple-pastel-lavender: #cfbae1; /* Lavanda pastel */
+
+  /* Cores Neutras */
   --color-dark-slate: #303841; /* Azul-acinzentado escuro */
-  --color-cyan-bright: #00dee8; /* Ciano brilhante */
   --color-light-gray: #eeeeee; /* Cinza claro */
-  --color-light-slate: #676d73; /* Azul-acinzentado claro */
-  
+  --color-light-purple: #c19ab7; /* Roxo claro rosado */
+  --color-dark-purple: #62405a; /* Roxo escuro ameixa */
+  --color-pastel-lavender: #cfbae1; /* Lavanda pastel */
+  --color-muted-violet: #6f5d80; /* Violeta acinzentado */
 }
+
+
