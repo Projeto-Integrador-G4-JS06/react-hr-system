@@ -6,6 +6,7 @@ import Home from "./pages/home/Home";
 import Cadastro from "./pages/cadastro/Cadastro";
 import Sobre from "./pages/sobre/Sobre";
 import Carrossel from "./components/carrossel/Carrossel";
+import ListarColaboradores from "./components/colaboradores/listarcolaboradores/ListarColaboradores";
 
 
 function App() {
@@ -18,9 +19,10 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/cadastro" element={<Cadastro />} />
           <Route path="/sobre" element={<Sobre />} />
+          <Route path="/listarcolaboradores" element={<ListarColaboradores />} />
         </Routes>
       </div>
-     </BrowserRouter>
+    </BrowserRouter>
   );
 }
 
