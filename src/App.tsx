@@ -1,15 +1,21 @@
 
 import './App.css'
-import CardPrincipal from './components/colaboradores/cardcolaborador/CardPrincipal'
+
+import ListarColaboradores from './components/colaboradores/listarcolaboradores/ListarColaboradores';
 
 function App() {
   
 
   return (
     <>
-      <CardPrincipal/>
+
+    <ListarColaboradores/>
+      {/* <div className="flex justify-center">
+        <CardPrincipal/>
+        <CardSecundario />
+      </div> */}
     </>
-  )
+  );
 }
 
 export default App
