@@ -27,4 +27,8 @@ body {
   /* Cores Neutras */
   --color-dark-slate: #303841; /* Azul-acinzentado escuro */
   --color-light-gray: #eeeeee; /* Cinza claro */
+  --color-light-purple: #c19ab7; /* Roxo claro rosado */
+  --color-dark-purple: #62405a; /* Roxo escuro ameixa */
+  --color-pastel-lavender: #cfbae1; /* Lavanda pastel */
+  --color-muted-violet: #6f5d80; /* Violeta acinzentado */
 }
