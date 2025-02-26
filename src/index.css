@@ -1,10 +1,21 @@
 @import "tailwindcss";
 
 @theme {
-  /* --color-*: initial; */
+  /* Cores Aqua (Azul-esverdeado) */
   --color-aqua-medium: #00adb5; /* Azul-esverdeado médio */
   --color-aqua-dark: #007c82; /* Azul-esverdeado escuro */
+  --color-aqua-bright: #00dee8; /* Azul-esverdeado brilhante */
+  --color-aqua-test: #00d1db; /* Azul-esverdeado para testes */
+
+  /* Cores Roxo (Purple) */
+  --color-purple-light: #c19ab7; /* Roxo claro rosado */
+  --color-purple-dark: #62405a; /* Roxo escuro ameixa */
+  --color-purple-violet-dark: #452d3f; /* Violeta escuro */
+  --color-purple-violet-hover: #5a3a4f; /* Violeta escuro para hover */
+  --color-purple-muted-violet: #6f5d80; /* Violeta acinzentado */
+  --color-purple-pastel-lavender: #cfbae1; /* Lavanda pastel */
+
+  /* Cores Neutras */
   --color-dark-slate: #303841; /* Azul-acinzentado escuro */
-  --color-cyan-bright: #00dee8; /* Ciano brilhante */
   --color-light-gray: #eeeeee; /* Cinza claro */
 }
